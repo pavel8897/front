@@ -1,0 +1,28 @@
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    max-width: 554px;
+}
+
+.advantage {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2px;
+    text-align: left;
+    max-width: 554px;
+}
+
+.value {
+    color: #fff;
+    font-family: 'Teko-Bold';
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.label {
+    color: rgba(242, 242, 242, 0.3);
+    font-family: 'Teko-Regular';
+    font-size: 18px;
+    line-height: 24px;
+}

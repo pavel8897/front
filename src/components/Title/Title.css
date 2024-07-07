@@ -1,0 +1,25 @@
+.title {
+    color: #F2F2F2;
+    max-width: 1008px;
+    font-size: 80px;
+    line-height: 100px;
+    margin: 0;
+    font-family: Teko-Bold;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+}
+
+.colorText {
+    background: linear-gradient(to right, rgba(124, 111, 207, 0.97), rgba(116, 174, 170, 0.95), rgba(111, 207, 151, 1));
+    background-clip: text;
+    color: transparent;
+}
+
+.subtitle {
+    font-size: 34px;
+    color: rgba(130, 130, 130, 1);
+    font-family: Teko-Regular;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 88px;
+}
