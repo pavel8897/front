@@ -1,12 +1,13 @@
 import './style.css';
 import { Title } from './components/Title/Title';
 import { Advantages } from './components/Advantages/Advantages';
+import { Button } from './components/Button/Button';
+import { Socials } from './components/Socials/Socials';
 
 function App() {
   return (
     <div className="wrapper">
-      <Title
-        text="Do you want to Learn more About cryptocurrencies"
+      <Title        
         colorText=" quickly and easily ?"
       />
 
@@ -16,7 +17,11 @@ function App() {
       />
       
       <Advantages />
-    </div>    
+
+      <Button text="join whatsapp" />
+
+      <Socials />
+    </div>
   );
 }
 

@@ -1,0 +1,12 @@
+.btn {
+    width: 532px;
+    height: 56px;
+    border-radius: 16px;
+    background: linear-gradient(to right, rgba(124, 111, 207, 0.97), rgba(116, 174, 170, 0.95), rgba(111, 207, 151, 1));
+    text-transform: uppercase;
+    color: #000;
+    border: 0;
+    font-size: 28px;
+    font-family: 'Teko-Regular';
+    margin-bottom: 76px;
+}

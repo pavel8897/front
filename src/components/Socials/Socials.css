@@ -1,0 +1,20 @@
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.social {
+    background-color: #302D2D;
+    color: #F2F2F2;
+    border-radius: 12px;
+    padding: 8px 12px;
+    font-family: 'Teko-Regular';
+}
+
+.social span {
+    font-size: 12px;
+}
+
+.social h2 {
+    font-size: 20px;
+}

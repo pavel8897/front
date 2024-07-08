@@ -4,8 +4,12 @@ import './Advantages.css';
 import {advantages} from './data';
 
 export const Advantages = () => {
-    const result = advantages.map(item =>
-        <Advantage value={item.value} label={item.label} />
+    const result = advantages.map((advantage, index) =>
+        <Advantage
+            key={index}
+            value={advantage.value}
+            label={advantage.label}
+        />
     )
 
     return (
